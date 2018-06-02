@@ -27,5 +27,12 @@
     text-align: center;
     margin: 0 auto;
 }
-
+.img_section1::after
+.img_section2::after
+.img_section3::after{
+    content:"";
+    clear: both;
+    display: table;
+    overflow: hidden;
+}
 
