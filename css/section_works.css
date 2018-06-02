@@ -2,37 +2,29 @@
     font-weight: 800;
     font-size: 26px;
     text-transform: uppercase;
-    color: #29323c;
 }
 .section_description{
     font-size: 14px;
     font-weight: 400;
     padding-top: 16px;
     padding-bottom: 17px;
-    color: #767c82;
 }
 .work_image{
     display: inline-block;
     width: 20%;
     box-sizing: border-box;
-    vertical-align: middle;
+    vertical-align: top;
 }
 .section_work_img{
     padding-top: 60px;
-    font-size: 0;
-    background-color: #fff;
 }
 .work{
     padding-top: 100px;
     text-align: center;
     margin: 0 auto;
 }
-.img_section1::after
-.img_section2::after
-.img_section3::after{
-    content:"";
-    clear: both;
-    display: table;
-    overflow: hidden;
+.example_work{
+    font-size: 0;
 }
+
 
