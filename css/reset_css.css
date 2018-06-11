@@ -24,7 +24,6 @@ body, html {
   touch-action: none;
   speak: none;
   font-family: "Roboto", Arial, sans-serif;
-  /* overflow: hidden; */
   cursor: default;
   -webkit-font-smoothing: subpixel-antialiased;
   -webkit-backface-visibility: hidden;

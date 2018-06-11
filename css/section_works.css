@@ -6,8 +6,6 @@
 .section_description{
     font-size: 14px;
     font-weight: 400;
-    padding-top: 16px;
-    padding-bottom: 17px;
 }
 .work_image{
     display: inline-block;
@@ -15,11 +13,7 @@
     box-sizing: border-box;
     vertical-align: top;
 }
-.section_work_img{
-    padding-top: 60px;
-}
 .work{
-    padding-top: 100px;
     text-align: center;
     margin: 0 auto;
 }
