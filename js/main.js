@@ -1,48 +1,38 @@
-
-
-
 document.addEventListener('DOMContentLoaded', function () {
     //начало сдвинутого куска
 
     function openResumeForm() {
         let formVisibility = document.getElementsByClassName("form-wrap");
         formVisibility[0].className += " d-block";
-        console.log('openResumeForm');
     }
     let firsVideoSrc = 'https://www.youtube.com/embed/ZRjE6u63iJ0';
     let secondVideoSrc = 'https://www.youtube.com/embed/dbWYqdBNgH4';
 
     function closeResumeForm() {
         let getForm = document.getElementsByClassName("form-wrap");
-        getForm[0].classList.remove(" d-block");
+        getForm[0].classList.remove("d-block");
     }
 
     function openFirstVideo() {
         let videoWrap = document.getElementsByClassName('video');
-        /*   let videoArea = document.getElementsByClassName('js-video-wrap');*/
-        /*    videoArea[0].setAttribute('src',firsVideoSrc);*/
         videoWrap[0].className += ' d-block';
-        console.log('openFirstVideo');
     }
     function openSecondVideo() {
         let videoSecondWrap = document.getElementsByClassName('second-video');
-        // let videoArea = document.getElementsByClassName('js-video-wrap');
-        //videoArea[0].setAttribute('src',secondVideoSrc);
+
         videoSecondWrap[0].className += ' d-block';
-        console.log('openSecondVideo');
     }
     function closeFirstVideoByWrap(){
         let getVideoWrap = document.getElementsByClassName('video');
         getVideoWrap[0].classList.remove('d-block');
         player.pauseVideo();
-        console.log('closeVideoByWrap');
     }
     function closeSecondVideo(){
         let getSecondVideoWrap = document.getElementsByClassName('second-video');
         getSecondVideoWrap[0].classList.remove('d-block');
         player2.pauseVideo();
-        console.log('closeSecondVideo');
     }
+
     //вставленый перемещённый кусок
 
     // 2. This code loads the IFrame Player API code asynchronously.
@@ -50,6 +40,7 @@ document.addEventListener('DOMContentLoaded', function () {
     tag.src = "http://www.youtube.com/player_api";
     var firstScriptTag = document.getElementsByTagName('script')[0];
     firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+
     let $btnOpenForm = document.querySelectorAll('.js-btn-open-resume-form');
     const $firstVideo = document.querySelector('.capabilities__item__img-f');
     const $btnCloseForm = document.querySelector('.js-close-resume-form');

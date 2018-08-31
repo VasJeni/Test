@@ -4,8 +4,6 @@
     <meta charset="UTF-8">
     <title>Title</title>
     <meta name="author" content="jenya.vasilyev">
-<!--    <script type="text/javascript" src="js/jquery-1.11.0.min.js"></script>
-    <script type="text/javascript" src="js/jquery-migrate-1.2.1.min.js"></script>-->
     <script src="https://code.jquery.com/jquery-1.9.1.js"></script>
     <script type="text/javascript" src="slick/slick.min.js"></script>
     <link rel="stylesheet" type="text/css" href="slick/slick.css">
@@ -27,7 +25,6 @@
             <a href="https://kiev.hh.ua/employer/21071#vacancy-list" class="header-page__nav-menu--link">Вакансии</a>
             <a href="#capabilities" class="header-page__nav-menu--link">Возможности для студентов</a>
             <a href="#contacts" class="header-page__nav-menu--link">Контакты</a>
-     <!--       <a href="#" class="header-page__nav-menu&#45;&#45;link">Язык</a>-->
         </nav>
         <div class="header-page__content">
             <div class="header-page__brand">
@@ -111,7 +108,6 @@
 <section class="brands">
     <div class="container">
         <div class="brands__wrap">
-        <!--    <button class="brands__button__side-left">&#60;</button>-->
             <div class="brands__gallery">
                 <div class="brands__gallery-ico ico1"></div>
                 <div class="brands__gallery-ico ico2"></div>
@@ -133,7 +129,6 @@
                 <div class="brands__gallery-ico ico18"></div>
                 <div class="brands__gallery-ico ico19"></div>
             </div>
-<!--            <button class="brands__button__side-right">&#62;</button>-->
         </div>
     </div>
 </section>
@@ -203,15 +198,6 @@
     <div class="container">
         <div class="target__wrap">
             <div class="target__photo-gallery">
-        <!--        <div class="target__photo-gallery__item-first">
-                    <img class="target__photo-gallery__item&#45;&#45;team" src="../img/team.png" alt="team">
-                </div>
-                 <div class="target__photo-gallery__item-second">
-                <img class="target__photo-gallery__item&#45;&#45;polygon" src="../img/Polygon2_14.jpg" alt="polygon">
-                </div>
-                <div class="target__photo-gallery__item-third">
-                  <img class="target__photo-gallery__item&#45;&#45;worker" src="../img/worker.png" alt="worker">
-                </div>-->
             </div>
             <div class="target__section-description">
                 <h2 class="target__section-description--title">Цель Unilever Ukraine</h2>
@@ -397,24 +383,9 @@
 </section>
 <section class="second-video d-none">
     <div class="second-video__wrap">
-
-        <!--<iframe class="js-video-wrap"
-                frameborder="0" allow="autoplay; encrypted-media" allowfullscreen>
-        </iframe>-->
-        <!--  src="https://www.youtube.com/embed/ZRjE6u63iJ0"-->
-
-
     <div id="player2"></div>
     </div>
     <script>
-        /*// 2. This code loads the IFrame Player API code asynchronously.
-        var tag = document.createElement('script');
-        tag.src = "http://www.youtube.com/player_api";
-        var firstScriptTag = document.getElementsByTagName('script')[0];
-        firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);*/
-
-        // 3. This function creates an <iframe> (and YouTube player)
-        //    after the API code downloads.
         var player2;
         let player;
         function onYouTubePlayerAPIReady() {
@@ -428,18 +399,6 @@
                 width: '560',
                 videoId: 'Q18diZBCBvo',
             });
-            document.getElementById('resume').onclick = function() {
-                player.playVideo();
-            };
-            document.getElementById('pause').onclick = function() {
-                player.pauseVideo();
-            };
-            document.getElementById('resume2').onclick = function() {
-                player2.playVideo();
-            };
-            document.getElementById('pause2').onclick = function() {
-                player2.pauseVideo();
-            };
         }
     </script>
 </section>
